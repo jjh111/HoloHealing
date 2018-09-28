@@ -6,7 +6,7 @@ body {
 
 }
 .container {
-    position: absolute;
+    position: fixed;
     height:100vh;
     width:100vw;
     background-image: url("images/fullmoonportrait.jpg");
@@ -26,7 +26,7 @@ color: #FFFFFF;
 
 
 .holologo{
-    position: fixed;
+    position: absolute;
     width: 90%;
     z-index: 11;
     margin-top: 5%;
