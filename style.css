@@ -62,7 +62,7 @@ color: #FFFFFF;
   .textbod {
     position: fixed;
 
-    margin-top: calc(50% * 50vh);
+    margin-top: 50vh;
     margin-left: 2%;
     width: 44%;
     z-index: 5;
