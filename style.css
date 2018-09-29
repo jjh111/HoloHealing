@@ -59,6 +59,18 @@ color: #FFFFFF;
     text-align: center;
     color: white;
   }
+  .textbod {
+    position: fixed;
+
+    margin-top: 60%;
+    margin-left: 2%;
+    width: 44%;
+    z-index: 5;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: calc(20% + 1.2vw);
+    text-align: left;
+    color: white;
+  }
 .sig {
   position: fixed;
   height: auto;
