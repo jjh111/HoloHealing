@@ -61,16 +61,27 @@ color: #FFFFFF;
   }
   .textbod {
     position: fixed;
-
-    margin-top: 50vh;
+    margin-top: 40vh;
     margin-left: 2%;
     width: 44%;
     z-index: 5;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: calc(22% + 1.2vw);
+    font-size: calc(22% + 1.3vw);
     text-align: left;
     color: white;
   }
+  .resources {
+    position: fixed;
+    right: 2%;
+    margin-top: 40vh;
+    width: 44%;
+    z-index: 5;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: calc(22% + 1.2vw);
+    text-align: right;
+    color: white;
+  }
+
 .sig {
   position: fixed;
   height: auto;
