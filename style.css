@@ -84,7 +84,7 @@ color: #FFFFFF;
 
 .sig {
   position: fixed;
-  opacity: 0.5;
+  opacity: 0.3;
   height: auto;
   width: calc(55% - 33vw);
   bottom: 0%;
