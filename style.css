@@ -25,7 +25,7 @@ color: #FFFFFF;
 }
 
 
-.holologo{
+#holo2d{
     position: fixed;
     width: 70%;
     z-index: 4;
@@ -34,6 +34,12 @@ color: #FFFFFF;
     margin-left: 15%;
     margin-right: 5%;
 
+  }
+
+  #holo3dl{
+    position: absolute;
+    height: 200%;
+    width: 100%;
   }
 
   .Header {

@@ -23,14 +23,18 @@
 
 <div class="holologo">
   <img id="holo2d" src="images/Holohealing2da.png">
-  <ml-quad
-           id="holo3d"
-           src="images/Holohealing2da.png"
-          style="width: 77%; height: 77%; position: absolute; left: 10%; bottom: 20%;"
-           color="rgba(255, 255, 255, 0.99)"
-           unbounded="true"
-           z-offset="333">
-         </ml-quad>
+  <div class="holo3d">
+    <ml-model
+    id="JamSessionModel"
+    src="images/HoloHealingCad1.glb"
+    extractable="true"
+    extracted-scale="3"
+    style="width: 88%; height: 88%; position: absolute; left: 10%; top: 19%;"
+    z-offset="555px"
+    model-scale="0.8 0.8 0.8"
+    environmental-lighting="color-intensity: 1;">
+    </ml-model>
+  </div>
 </div>
 
 
