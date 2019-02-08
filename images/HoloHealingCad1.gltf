@@ -1,29 +1,8 @@
 {
     "asset" : {
+        "copyright" : "johnhanacek.net",
         "generator" : "Khronos Blender glTF 2.0 I/O",
         "version" : "2.0"
-    },
-    "extensionsUsed" : [
-        "KHR_lights_punctual"
-    ],
-    "extensionsRequired" : [
-        "KHR_lights_punctual"
-    ],
-    "extensions" : {
-        "KHR_lights_punctual" : {
-            "lights" : [
-                {
-                    "color" : [
-                        0.1025962084531784,
-                        1,
-                        0.08050574362277985
-                    ],
-                    "intensity" : 0.30000001192092896,
-                    "type" : "point",
-                    "name" : "Point.001"
-                }
-            ]
-        }
     },
     "scene" : 0,
     "scenes" : [
@@ -32,6 +11,7 @@
             "nodes" : [
                 0,
                 1,
+                2,
                 3,
                 4,
                 5,
@@ -46,8 +26,7 @@
                 14,
                 15,
                 16,
-                17,
-                18
+                17
             ]
         }
     ],
@@ -81,23 +60,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 0
-                }
-            },
-            "name" : "Point.001_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                2
-            ],
             "name" : "Point.001",
             "translation" : [
                 0.2820367217063904,
